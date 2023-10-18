@@ -18,3 +18,21 @@ scope (zasięg) |    function     | block | block
     - arrow functions
 
 ![functions.png](src%2Ffunctions.png)
+
+---
+## Logic
+x | y| AND &&
+:---: | :---: | :---:
+1|1|1
+1|0|0
+0|1|0
+0|0|0
+
+x | y| OR 
+:---: | :---: | :---:
+1|1|1
+1|0|1
+0|1|1
+0|0|0
+
+[Prawa de Mrogana](https://pl.wikipedia.org/wiki/Prawa_De_Morgana)

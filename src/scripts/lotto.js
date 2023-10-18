@@ -39,7 +39,7 @@ const checkHits = (userDigits, drawnDigits) => {
 const showResults = (hits) => {
     let message = '';
 
-    if (hits.legth === 0) {
+    if (hits.length === 0) {
         message += "Spróbój jeszcze raz. Na pewno wygrasz! "
     } else {
         message += `Wygrałeś! Trafiłeś ${hits.length} liczb. Twoje liczby to ${hits.join (", ")}`

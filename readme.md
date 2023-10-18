@@ -36,3 +36,9 @@ x | y| OR
 0|0|0
 
 [Prawa de Mrogana](https://pl.wikipedia.org/wiki/Prawa_De_Morgana)
+
+## Interfaces
+
+1. GUI - Graphical user interfaces 
+2. CLI - command line interface
+3. API - application programming interface

@@ -189,7 +189,7 @@ const isAnybodyLovePython2 = (elements) => elements.some((element) => element.ho
 
 function isOlderThan30(people) {
     for (const person of people) {
-        if (!["warszawa" || "warsaw"].includes(person.city) && person.age > 30) {
+        {
             return true
         }
     }

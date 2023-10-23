@@ -2,7 +2,7 @@ const btnRef = document.querySelector('form button[type="submit"]');
 const inputRefs = [...document.querySelectorAll('form input[id^="digit-"]')]
 const resultsRef = document.querySelector ('#results')
 
-const isNotEmpty = (value) => value.trim() !== '';
+const isNotEmpty = (value) => value.trim() !== ''; // deklaruję zmienną i przypisuję deklarację funkcji, przyjmuje parametr value i zwraca boolean
 const isNotAllEmpty = (inputs) => inputs.every(isNotEmpty);
 
 const isInteger = (value) => !isNaN(parseInt(value));

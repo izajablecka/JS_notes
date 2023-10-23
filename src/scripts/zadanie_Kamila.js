@@ -85,15 +85,18 @@ let diving = [
 //Zadanie 1.
 //Znajdź wszystkie miejsca nurkowe, w których długość nurkowania wynosi 50 min.
 
-const placesWith50MinDive = diving.filter(place => place.dive_length === 50);
-console.log(placesWith50MinDive);
+const fiftyMinDive = diving.filter(place => place.dive_length === 50);
+console.log(fiftyMinDive);
 
 //Zadanie 2.
 //Zwróć obiekty zawierające więcej niż 1mln nurkowań.
 
-const placesWithMillionDives = diving.filter(place => place.number_of_dives > 1000000);
-console.log(placesWithMillionDives);
+const millionDives = diving.filter(place => place.number_of_dives > 1000000);
+console.log(millionDives);
+
 //Zadanie 3.
-//Oblicz  średnią głębokość nurkowań  dla wszystkich obiektów.
-const totalDepth = diving.reduce((sum, place) => sum + place.depth, 0), averageDepth = totalDepth / diving.length;
+//Oblicz  średnią głębokość nurkowań dla wszystkich obiektów.
+
+const totalDepth = diving.reduce((sum, place) => sum + place.depth, 0);
+const averageDepth = totalDepth / diving.length;
 console.log(averageDepth);
